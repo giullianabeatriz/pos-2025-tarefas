@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
 <cardapio>
     <prato id="P01">
-        <nome_do_prato>
             <nome>Macarronada de frango</nome>
-        </nome_do_prato>
         <descricao>Esse prato é considerado um dos melhores do nosso cardápio.</descricao>
         <ingredientes>
             macarrão; 
             molho branco;
             frango.
         </ingredientes>
-        <preco>R$25,00</preco>
+        <preco moeda= "BRL">R$25,00</preco>
         <calorias>438Kcal</calorias>
-        <tempo>20min</tempo>
+        <tempoPreparo>20min</tempoPreparo>
     </prato>
 
     <prato id="P02">
-        <nome_do_prato>
             <nome>Lasanha de frango</nome>
-        </nome_do_prato>
         <descricao>Esse prato é o mais pedido do nosso cardápio.</descricao>
         <ingredientes>
             macarrão; 
@@ -27,15 +24,13 @@
             presunto;
             frango.
         </ingredientes>
-        <preco>R$30,00</preco>
+        <preco moeda= "BRL">R$30,00</preco>
         <calorias>580Kcal</calorias>
-        <tempo>45min</tempo>
+        <tempoPreparo>45min</tempoPreparo>
     </prato>
 
     <prato id="P03">
-        <nome_do_prato>
             <nome>Escondidinho de carne</nome>
-        </nome_do_prato>
         <descricao>Esse prato é o mais simples do nosso cardápio.</descricao>
         <ingredientes>
             batatinha; 
@@ -43,15 +38,13 @@
             carne;
             batata palha.
         </ingredientes>
-        <preco>R$35,00</preco>
+        <preco moeda= "BRL">R$35,00</preco>
         <calorias>450Kcal</calorias>
-        <tempo>40min</tempo>
+        <tempoPreparo>40min</tempoPreparo>
     </prato>
 
     <prato id="P04">
-        <nome_do_prato>
             <nome>Feijoada</nome>
-        </nome_do_prato>
         <descricao>Esse prato é o mais comum do nosso cardápio.</descricao>
         <ingredientes>
             feijao; 
@@ -59,15 +52,13 @@
             legumes;
             carne.
         </ingredientes>
-        <preco>R$20,00</preco>
+        <preco moeda= "BRL">R$20,00</preco>
         <calorias>400Kcal</calorias>
-        <tempo>40min</tempo>
+        <tempoPreparo>40min</tempoPreparo>
     </prato>
 
     <prato id="P05">
-        <nome_do_prato>
             <nome>Sopa de carne</nome>
-        </nome_do_prato>
         <descricao>Esse prato é o mais saboroso do nosso cardápio.</descricao>
         <ingredientes>
             macarrão; 
@@ -75,9 +66,9 @@
             carne;
             temperos.
         </ingredientes>
-        <preco>R$25,00</preco>
+        <preco moeda= "BRL">R$25,00</preco>
         <calorias>386Kcal</calorias>
-        <tempo>50min</tempo>
+        <tempoPreparo>50min</tempoPreparo>
     </prato>
 
 </cardapio>

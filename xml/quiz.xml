@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE quiz SYSTEM "quiz.dtd">
+<quiz>
+    <questao>
+        <enunciado> quanto é 2+2?</enunciado>
+        <alternativa correta="verdadeiro">4</alternativa>
+        <alternativa correta="falso">1</alternativa>
+        <alternativa correta="falso">3</alternativa>
+        <alternativa correta="falso">8</alternativa>
+    </questao>
+
+    <questao>
+        <enunciado> quanto é 2+6?</enunciado>
+        <alternativa correta="verdadeiro">8</alternativa>
+        <alternativa correta="falso">10</alternativa>
+        <alternativa correta="falso">3</alternativa>
+        <alternativa correta="falso">9</alternativa>
+    </questao>
+
+    <questao>
+        <enunciado> quanto é 2+8?</enunciado>
+        <alternativa correta="verdadeiro">10</alternativa>
+        <alternativa correta="falso">3</alternativa>
+        <alternativa correta="falso">7</alternativa>
+        <alternativa correta="falso">8</alternativa>
+    </questao>
+
+    <questao>
+        <enunciado> quanto é 2+1?</enunciado>
+        <alternativa correta="verdadeiro">3</alternativa>
+        <alternativa correta="falso">2</alternativa>
+        <alternativa correta="falso">9</alternativa>
+        <alternativa correta="falso">8</alternativa>
+    </questao>
+
+    <questao>
+        <enunciado> quanto é 2+3?</enunciado>
+        <alternativa correta="verdadeiro">5</alternativa>
+        <alternativa correta="falso">1</alternativa>
+        <alternativa correta="falso">3</alternativa>
+        <alternativa correta="falso">8</alternativa>
+    </questao>
+
+</quiz>
