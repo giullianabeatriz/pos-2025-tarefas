@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE imobiliaria [
+<!ELEMENT imobiliaria (imovel+)>
+<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+<!ATTLIST imovel id CDATA #REQUIRED>
+<!ELEMENT descricao (#PCDATA)>
+<!ELEMENT proprietario (nome, (email|telefone)+)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefone (#PCDATA)>
+<!ELEMENT endereco (rua, bairro, cidade, numero)*>
+<!ELEMENT rua (#PCDATA)>
+<!ELEMENT bairro (#PCDATA)>
+<!ELEMENT cidade (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT caracteristicas (tamanho,numQuartos,numBanheiros)>
+<!ELEMENT tamanho (#PCDATA)>
+<!ELEMENT numQuartos (#PCDATA)>
+<!ELEMENT numBanheiros (#PCDATA)>
+<!ELEMENT valor (#PCDATA)>
+]>
+<imobiliaria>
+    <imovel id="i01">
+    <descricao>imovel à venda</descricao>
+        <proprietario>
+            <nome>casa</nome>
+            <email>ana@gmail.com</email>
+            <telefone>123456789</telefone>
+        </proprietario>
+        <endereco>
+            <rua>sao joao</rua>
+            <bairro>potengi</bairro>
+            <cidade>spp</cidade>
+            <numero>28</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>1000m</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>R$200.000</valor>
+    </imovel>
+
+    <imovel id="i02">
+        <descricao>imovel à venda</descricao>
+            <proprietario>
+                <nome>apartamento</nome>
+                <email>ana@gmail.com</email>
+                <telefone>123456789</telefone>
+            </proprietario>
+            <endereco>
+                <rua>sao joao</rua>
+                <bairro>potengi</bairro>
+                <cidade>spp</cidade>
+                <numero>28</numero>
+            </endereco>
+            <caracteristicas>
+                <tamanho>1000m</tamanho>
+                <numQuartos>3</numQuartos>
+                <numBanheiros>4</numBanheiros>
+            </caracteristicas>
+            <valor>R$200.000</valor>
+        </imovel>
+
+        <imovel id="i02">
+            <descricao>imovel à venda</descricao>
+                <proprietario>
+                    <nome>casa</nome>
+                    <email>maria@gmail.com</email>
+                    <telefone>12398445689</telefone>
+                </proprietario>
+                <endereco>
+                    <rua>sao jose</rua>
+                    <bairro>tirol</bairro>
+                    <cidade>natal</cidade>
+                    <numero>56</numero>
+                </endereco>
+                <caracteristicas>
+                    <tamanho>1500m</tamanho>
+                    <numQuartos>5</numQuartos>
+                    <numBanheiros>4</numBanheiros>
+                </caracteristicas>
+                <valor>R$300.000</valor>
+            </imovel>
+
+            <imovel id="i03">
+                <descricao>imovel à venda</descricao>
+                    <proprietario>
+                        <nome>apartamento</nome>
+                        <email></email>
+                        <telefone>84996456789</telefone>
+                    </proprietario>
+                    <endereco>
+                        <rua>potengi</rua>
+                        <bairro>capim macio</bairro>
+                        <cidade>natal</cidade>
+                        <numero></numero>
+                    </endereco>
+                    <caracteristicas>
+                        <tamanho>2000m</tamanho>
+                        <numQuartos>5</numQuartos>
+                        <numBanheiros>3</numBanheiros>
+                    </caracteristicas>
+                    <valor>R$250.000</valor>
+                </imovel>
+
+                <imovel id="i04">
+                    <descricao>imovel à venda</descricao>
+                        <proprietario>
+                            <nome>casa</nome>
+                            <email>beatriz@gmail.com</email>
+                            <telefone>84996456789</telefone>
+                            <telefone>84996455479</telefone>
+                        </proprietario>
+                        <endereco>
+                            <rua>jose alencar</rua>
+                            <bairro>tirol</bairro>
+                            <cidade>natal</cidade>
+                            <numero>67</numero>
+                        </endereco>
+                        <caracteristicas>
+                            <tamanho>2100m</tamanho>
+                            <numQuartos>2</numQuartos>
+                            <numBanheiros>3</numBanheiros>
+                        </caracteristicas>
+                        <valor>R$270.000</valor>
+                    </imovel>
+                    <imovel id="i05">
+                        <descricao>imovel à venda</descricao>
+                            <proprietario>
+                                <nome>casa</nome>
+                                <email>aline@gmail.com</email>
+                                <telefone>8493366789</telefone>
+                            </proprietario>
+                            <endereco>
+                                <rua>maria jose</rua>
+                                <bairro>igapo</bairro>
+                                <cidade>natal</cidade>
+                                <numero>68</numero>
+                            </endereco>
+                            <caracteristicas>
+                                <tamanho>2500m</tamanho>
+                                <numQuartos>4</numQuartos>
+                                <numBanheiros>3</numBanheiros>
+                            </caracteristicas>
+                            <valor>R$290.000</valor>
+                        </imovel>
+</imobiliaria>
