@@ -1,0 +1,51 @@
+{
+    "cardapio": {
+      "prato": [
+        {
+          "id": "P01",
+          "nome": "Macarronada de frango",
+          "descricao": "Esse prato é considerado um dos melhores do nosso cardápio.",
+          "ingredientes": "macarrão; \n        molho branco;\n        frango.",
+          "preco": 25.00,
+          "calorias": 438,
+          "tempoPreparo": "20min"
+        },
+        {
+          "id": "P02",
+          "nome": "Lasanha de frango",
+          "descricao": "Esse prato é o mais pedido do nosso cardápio.",
+          "ingredientes": "macarrão; \n        molho;\n        queijo;\n        presunto;\n        frango.",
+          "preco": 30.00,
+          "calorias": 580,
+          "tempoPreparo": "45min"
+        },
+        {
+          "id": "P03",
+          "nome": "Escondidinho de carne",
+          "descricao": "Esse prato é o mais simples do nosso cardápio.",
+          "ingredientes": "batatinha; \n        queijo;\n        carne;\n        batata palha.",
+          "preco": 35.00,
+          "calorias": 450,
+          "tempoPreparo": "40min"
+        },
+        {
+          "id": "P04",
+          "nome": "Feijoada",
+          "descricao": "Esse prato é o mais comum do nosso cardápio.",
+          "ingredientes": "feijao; \n        calabresa;\n        legumes;\n        carne.",
+          "preco": 20.00,
+          "calorias": 400,
+          "tempoPreparo": "40min"
+        },
+        {
+          "id": "P05",
+          "nome": "Sopa de carne",
+          "descricao": "Esse prato é o mais saboroso do nosso cardápio.",
+          "ingredientes": "macarrão; \n        batata;\n        carne;\n        temperos.",
+          "preco": 25.00,
+          "calorias": 386,
+          "tempoPreparo": "50min"
+        }
+      ]
+    }
+  }  

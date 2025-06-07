@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE imobiliaria [
-<!ELEMENT imobiliaria (imovel+)>
-<!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
-<!ATTLIST imovel id CDATA #REQUIRED>
-<!ELEMENT descricao (#PCDATA)>
-<!ELEMENT proprietario (nome, (email|telefone)+)>
-<!ELEMENT nome (#PCDATA)>
-<!ELEMENT email (#PCDATA)>
-<!ELEMENT telefone (#PCDATA)>
-<!ELEMENT endereco (rua, bairro, cidade, numero)*>
-<!ELEMENT rua (#PCDATA)>
-<!ELEMENT bairro (#PCDATA)>
-<!ELEMENT cidade (#PCDATA)>
-<!ELEMENT numero (#PCDATA)>
-<!ELEMENT caracteristicas (tamanho,numQuartos,numBanheiros)>
-<!ELEMENT tamanho (#PCDATA)>
-<!ELEMENT numQuartos (#PCDATA)>
-<!ELEMENT numBanheiros (#PCDATA)>
-<!ELEMENT valor (#PCDATA)>
-]>
-<imobiliaria>
-    <imovel id="i01">
+<imobiliaria xmlns="http://imobiliariaespecial.org" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://imobiliariaespecial.org imobiliaria.xsd">
+
+<imovel>
     <descricao>imovel à venda</descricao>
         <proprietario>
             <nome>casa</nome>
@@ -34,14 +17,14 @@
             <numero>28</numero>
         </endereco>
         <caracteristicas>
-            <tamanho>1000m</tamanho>
+            <tamanho>1000</tamanho>
             <numQuartos>3</numQuartos>
             <numBanheiros>4</numBanheiros>
         </caracteristicas>
-        <valor>R$200.000</valor>
+        <valor>200.000</valor>
     </imovel>
 
-    <imovel id="i02">
+    <imovel>
         <descricao>imovel à venda</descricao>
             <proprietario>
                 <nome>apartamento</nome>
@@ -55,14 +38,14 @@
                 <numero>28</numero>
             </endereco>
             <caracteristicas>
-                <tamanho>1000m</tamanho>
+                <tamanho>1000</tamanho>
                 <numQuartos>3</numQuartos>
                 <numBanheiros>4</numBanheiros>
             </caracteristicas>
-            <valor>R$200.000</valor>
+            <valor>200.000</valor>
         </imovel>
 
-        <imovel id="i02">
+        <imovel>
             <descricao>imovel à venda</descricao>
                 <proprietario>
                     <nome>casa</nome>
@@ -76,14 +59,14 @@
                     <numero>56</numero>
                 </endereco>
                 <caracteristicas>
-                    <tamanho>1500m</tamanho>
+                    <tamanho>1500</tamanho>
                     <numQuartos>5</numQuartos>
                     <numBanheiros>4</numBanheiros>
                 </caracteristicas>
-                <valor>R$300.000</valor>
+                <valor>300.000</valor>
             </imovel>
 
-            <imovel id="i03">
+            <imovel>
                 <descricao>imovel à venda</descricao>
                     <proprietario>
                         <nome>apartamento</nome>
@@ -94,17 +77,16 @@
                         <rua>potengi</rua>
                         <bairro>capim macio</bairro>
                         <cidade>natal</cidade>
-                        <numero></numero>
                     </endereco>
                     <caracteristicas>
-                        <tamanho>2000m</tamanho>
+                        <tamanho>2000</tamanho>
                         <numQuartos>5</numQuartos>
                         <numBanheiros>3</numBanheiros>
                     </caracteristicas>
-                    <valor>R$250.000</valor>
+                    <valor>250.000</valor>
                 </imovel>
 
-                <imovel id="i04">
+                <imovel>
                     <descricao>imovel à venda</descricao>
                         <proprietario>
                             <nome>casa</nome>
@@ -119,13 +101,14 @@
                             <numero>67</numero>
                         </endereco>
                         <caracteristicas>
-                            <tamanho>2100m</tamanho>
+                            <tamanho>2100</tamanho>
                             <numQuartos>2</numQuartos>
                             <numBanheiros>3</numBanheiros>
                         </caracteristicas>
-                        <valor>R$270.000</valor>
+                        <valor>270.000</valor>
                     </imovel>
-                    <imovel id="i05">
+
+                <imovel>
                         <descricao>imovel à venda</descricao>
                             <proprietario>
                                 <nome>casa</nome>
@@ -139,10 +122,10 @@
                                 <numero>68</numero>
                             </endereco>
                             <caracteristicas>
-                                <tamanho>2500m</tamanho>
+                                <tamanho>2500</tamanho>
                                 <numQuartos>4</numQuartos>
                                 <numBanheiros>3</numBanheiros>
                             </caracteristicas>
-                            <valor>R$290.000</valor>
-                        </imovel>
+                            <valor>290.000</valor>
+                </imovel>
 </imobiliaria>

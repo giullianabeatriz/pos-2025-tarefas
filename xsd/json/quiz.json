@@ -1,0 +1,51 @@
+{
+    "quiz": {
+      "questao": [
+        {
+          "enunciado": "quanto é 2+2?",
+          "alternativa": [
+            { "correta": "verdadeiro", "valor": "4" },
+            { "correta": "falso", "valor": "1" },
+            { "correta": "falso", "valor": "3" },
+            { "correta": "falso", "valor": "8" }
+          ]
+        },
+        {
+          "enunciado": "quanto é 2+6?",
+          "alternativa": [
+            { "correta": "verdadeiro", "valor": "8" },
+            { "correta": "falso", "valor": "10" },
+            { "correta": "falso", "valor": "3" },
+            { "correta": "falso", "valor": "9" }
+          ]
+        },
+        {
+          "enunciado": "quanto é 2+8?",
+          "alternativa": [
+            { "correta": "verdadeiro", "valor": "10" },
+            { "correta": "falso", "valor": "3" },
+            { "correta": "falso", "valor": "7" },
+            { "correta": "falso", "valor": "8" }
+          ]
+        },
+        {
+          "enunciado": "quanto é 2+1?",
+          "alternativa": [
+            { "correta": "verdadeiro", "valor": "3" },
+            { "correta": "falso", "valor": "2" },
+            { "correta": "falso", "valor": "9" },
+            { "correta": "falso", "valor": "8" }
+          ]
+        },
+        {
+          "enunciado": "quanto é 2+3?",
+          "alternativa": [
+            { "correta": "verdadeiro", "valor": "5" },
+            { "correta": "falso", "valor": "1" },
+            { "correta": "falso", "valor": "3" },
+            { "correta": "falso", "valor": "8" }
+          ]
+        }
+      ]
+    }
+  }  

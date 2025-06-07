@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://quiz.org"
+        xmlns:q="http://quiz.org"
+        elementFormDefault="qualified">
+
+<element name="quiz">
+        <complexType>
+            <sequence>
+                <element name="questao" minOccurs="1" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="enunciado" type="string"/>
+                            <element name="alternativa" minOccurs="1" maxOccurs="unbounded">
+                                <complexType>
+                                    <simpleContent>
+                                        <extension base="string">
+                                            <attribute name="correta" use="required">
+                                                <simpleType>
+                                                    <restriction base="string">
+                                                        <enumeration value="verdadeiro"/>
+                                                        <enumeration value="falso"/>
+                                                    </restriction>
+                                                </simpleType>
+                                            </attribute>
+                                        </extension>
+                                    </simpleContent>
+                                </complexType>
+                            </element>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
