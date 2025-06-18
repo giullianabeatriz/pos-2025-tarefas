@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+
+<cardapio>
+    <prato id="P01">
+            <nome>Macarronada de frango</nome>
+        <descricao>Esse prato é considerado um dos melhores do nosso cardápio.</descricao>
+        <ingredientes>
+            macarrão; 
+            molho branco;
+            frango.
+        </ingredientes>
+        <preco moeda= "BRL">25.00</preco>
+        <calorias>438</calorias>
+        <tempoPreparo>20min</tempoPreparo>
+    </prato>
+
+    <prato id="P02">
+            <nome>Lasanha de frango</nome>
+        <descricao>Esse prato é o mais pedido do nosso cardápio.</descricao>
+        <ingredientes>
+            macarrão; 
+            molho;
+            queijo;
+            presunto;
+            frango.
+        </ingredientes>
+        <preco moeda= "BRL">30.00</preco>
+        <calorias>580</calorias>
+        <tempoPreparo>45min</tempoPreparo>
+    </prato>
+
+    <prato id="P03">
+            <nome>Escondidinho de carne</nome>
+        <descricao>Esse prato é o mais simples do nosso cardápio.</descricao>
+        <ingredientes>
+            batatinha; 
+            queijo;
+            carne;
+            batata palha.
+        </ingredientes>
+        <preco moeda= "BRL">35.00</preco>
+        <calorias>450</calorias>
+        <tempoPreparo>40min</tempoPreparo>
+    </prato>
+
+    <prato id="P04">
+            <nome>Feijoada</nome>
+        <descricao>Esse prato é o mais comum do nosso cardápio.</descricao>
+        <ingredientes>
+            feijao; 
+            calabresa;
+            legumes;
+            carne.
+        </ingredientes>
+        <preco moeda= "BRL">20.00</preco>
+        <calorias>400</calorias>
+        <tempoPreparo>40min</tempoPreparo>
+    </prato>
+
+    <prato id="P05">
+            <nome>Sopa de carne</nome>
+        <descricao>Esse prato é o mais saboroso do nosso cardápio.</descricao>
+        <ingredientes>
+            macarrão; 
+            batata;
+            carne;
+            temperos.
+        </ingredientes>
+        <preco moeda= "BRL">25.00</preco>
+        <calorias>386</calorias>
+        <tempoPreparo>50min</tempoPreparo>
+    </prato>
+</cardapio>

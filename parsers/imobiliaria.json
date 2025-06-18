@@ -1,0 +1,128 @@
+{
+    "imobiliaria": {
+      "imovel": [
+        {
+          "descricao": "imovel à venda",
+          "proprietario": {
+            "nome": "casa",
+            "email": "ana@gmail.com",
+            "telefone": "123456789"
+          },
+          "endereco": {
+            "rua": "sao joao",
+            "bairro": "potengi",
+            "cidade": "spp",
+            "numero": 28
+          },
+          "caracteristicas": {
+            "tamanho": 1000,
+            "numQuartos": 3,
+            "numBanheiros": 4
+          },
+          "valor": "200.000"
+        },
+        {
+          "descricao": "imovel à venda",
+          "proprietario": {
+            "nome": "apartamento",
+            "email": "ana@gmail.com",
+            "telefone": "123456789"
+          },
+          "endereco": {
+            "rua": "sao joao",
+            "bairro": "potengi",
+            "cidade": "spp",
+            "numero": 28
+          },
+          "caracteristicas": {
+            "tamanho": 1000,
+            "numQuartos": 3,
+            "numBanheiros": 4
+          },
+          "valor": "200.000"
+        },
+        {
+          "descricao": "imovel à venda",
+          "proprietario": {
+            "nome": "casa",
+            "email": "maria@gmail.com",
+            "telefone": "12398445689"
+          },
+          "endereco": {
+            "rua": "sao jose",
+            "bairro": "tirol",
+            "cidade": "natal",
+            "numero": 56
+          },
+          "caracteristicas": {
+            "tamanho": 1500,
+            "numQuartos": 5,
+            "numBanheiros": 4
+          },
+          "valor": "300.000"
+        },
+        {
+          "descricao": "imovel à venda",
+          "proprietario": {
+            "nome": "apartamento",
+            "email": "",
+            "telefone": "84996456789"
+          },
+          "endereco": {
+            "rua": "potengi",
+            "bairro": "capim macio",
+            "cidade": "natal"
+          },
+          "caracteristicas": {
+            "tamanho": 2000,
+            "numQuartos": 5,
+            "numBanheiros": 3
+          },
+          "valor": "250.000"
+        },
+        {
+          "descricao": "imovel à venda",
+          "proprietario": {
+            "nome": "casa",
+            "email": "beatriz@gmail.com",
+            "telefone": [
+              "84996456789",
+              "84996455479"
+            ]
+          },
+          "endereco": {
+            "rua": "jose alencar",
+            "bairro": "tirol",
+            "cidade": "natal",
+            "numero": 67
+          },
+          "caracteristicas": {
+            "tamanho": 2100,
+            "numQuartos": 2,
+            "numBanheiros": 3
+          },
+          "valor": "270.000"
+        },
+        {
+          "descricao": "imovel à venda",
+          "proprietario": {
+            "nome": "casa",
+            "email": "aline@gmail.com",
+            "telefone": "8493366789"
+          },
+          "endereco": {
+            "rua": "maria jose",
+            "bairro": "igapo",
+            "cidade": "natal",
+            "numero": 68
+          },
+          "caracteristicas": {
+            "tamanho": 2500,
+            "numQuartos": 4,
+            "numBanheiros": 3
+          },
+          "valor": "290.000"
+        }
+      ]
+    }
+  }    
