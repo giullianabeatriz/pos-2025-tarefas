@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tabela FIPE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Consultar Tabela FIPE</h1>
+      <p>Encontre o valor de mercado do veículo</p>
+    </header>
+
+    <main>
+      <section class="form-section">
+        <div class="form-group">
+          <label for="vehicle-type">Tipo de Veículo</label>
+          <select id="vehicle-type">
+            <option value="carros">Carros</option>
+            <option value="motos">Motos</option>
+            <option value="caminhoes">Caminhões</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="brand">Fabricante (Marca)</label>
+          <select id="brand">
+            <option value="">Selecione</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="model">Modelo</label>
+          <select id="model">
+            <option value="">Selecione</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="year">Ano</label>
+          <select id="year">
+            <option value="">Selecione</option>
+          </select>
+        </div>
+      </section>
+
+      <section id="vehicle-info" class="info-card hidden"></section>
+    </main>
+
+    <footer>
+      <p>Tabela FIPE</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
