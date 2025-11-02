@@ -1,0 +1,109 @@
+:root {
+    --primary: rgb(173, 44, 156);
+    --background: #ecbee5;
+    --card: rgb(153, 97, 150);
+    --text: rgb(222, 175, 241);
+    --shadow: rgba(133, 7, 114, 0.699);
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    color: var(--primary);
+  }
+  
+  header p {
+    color: #795279;
+    margin-top: 5px;
+  }
+  
+  main {
+    background: var(--card);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px var(--shadow);
+  }
+  
+  .form-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  
+  .form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group select:focus {
+    border-color: var(--primary);
+    outline: none;
+  }
+  
+  .info-card {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: white;
+    border-left: 5px solid var(--primary);
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .info-card h3 {
+    margin-bottom: 15px;
+    color: var(--primary);
+  }
+  
+  .info-card p {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 14px;
+    color: #795279;
+  }
+  
